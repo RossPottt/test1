@@ -1,0 +1,15 @@
+
+body {
+  padding-top: 120px;
+}
+
+/* style for the banner */
+.banner {
+  background-color: #4da6ff;
+  padding: 10px;
+  font-size: larger;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
