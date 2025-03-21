@@ -10,15 +10,14 @@ body {
   color: white;
   padding: 0px; /*ensures the nav bar sits flush with the banner*/
   font-size: larger;
-  position: fixed;
+  position: fixed; /*ensures banner stays at the top of the page when scrolling*/
   top: 0px;
   left: 0px;
   width: 100%;
-  border:0px;
 }
 
 .title {
-  padding-left:20px;
+  padding-left: 20px;
 }
 
 /*style for the nav bar. ensures it is visibly different from the rest of the banner*/
@@ -36,7 +35,11 @@ body {
   padding-right: 10px;
 }
 
-.perth_scene {
+.banner_photo {
   width: 100%; /*stops the image overflowing the page*/
-  border:0px; 
+}
+
+div {
+  padding-left: 20px;
+  padding-right: 20px;
 }
