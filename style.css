@@ -2,6 +2,8 @@
 body {
   padding-top: 120px;
   margin: 0px; /*ensures content is flush with the side of the page*/
+  color: #00264d;
+  font-family: Garamond, serif;
 }
 
 /* style for the banner */
@@ -37,6 +39,18 @@ body {
 
 .banner_photo {
   width: 100%; /*stops the image overflowing the page*/
+}
+
+/*Allows the two images on the visit page to sit together inline*/
+.image_box {
+  padding: 0px;
+  display: flex;
+}
+
+/*manages the two images inside the image box, ensures they take up half the screen each*/
+.image_box img {
+  width: 50%;
+  height: auto;
 }
 
 div {
