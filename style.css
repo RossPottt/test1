@@ -1,6 +1,7 @@
 
 body {
   padding-top: 120px;
+  padding-bottom: 50px;
   margin: 0px; /*ensures content is flush with the side of the page*/
   color: #00264d;
   font-family: Garamond, serif;
@@ -56,4 +57,13 @@ body {
 div {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+
+
+.page_footer {
+  background-color: #4da6ff;
+  height: 30px; /*ensures the footer is visible*/
+  width: 100%; /*ensures the footer fits the whole screen*/
+  margin-top: 20px;
 }
