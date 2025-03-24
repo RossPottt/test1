@@ -1,69 +1,91 @@
+/*styling that affects all pages*/
 
-body {
-  padding-top: 120px;
-  padding-bottom: 50px;
-  margin: 0px; /*ensures content is flush with the side of the page*/
-  color: #00264d;
-  font-family: Garamond, serif;
-}
+  /*default styling, unless overriden*/
+  body {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    margin: 0px; /*ensures content is flush with the side of the page*/
+    color: #00264d;
+    font-family: Garamond, serif;
+  }
 
-/* style for the banner */
-.banner {
-  background-color: #4da6ff;
-  color: white;
-  padding: 0px; /*ensures the nav bar sits flush with the banner*/
-  font-size: larger;
-  position: fixed; /*ensures banner stays at the top of the page when scrolling*/
-  top: 0px;
-  left: 0px;
-  width: 100%;
-}
+  p {
+    font-size: large;
+  }
 
-.title {
-  padding-left: 20px;
-}
+  /* style for the banner */
+  .banner {
+    background-color: #4da6ff;
+    color: white;
+    padding: 0px; /*ensures the nav bar sits flush with the banner*/
+    font-size: larger;
+    position: fixed; /*ensures banner stays at the top of the page when scrolling*/
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
 
-/*style for the nav bar. ensures it is visibly different from the rest of the banner*/
-.main_nav {
-  background-color: #3399ff;
-  padding: 5px;
-  width: 100%;
-  padding-left: 20px;
-}
+  .title {
+    padding-left: 20px;
+  }
 
-/*style for the navigation links*/
-.nav_button {
-  color: white;
-  text-decoration: none; /*removes the default hyperlink style*/ 
-  padding-right: 10px;
-}
+  /*style for the nav bar. ensures it is visibly different from the rest of the banner*/
+  .main_nav {
+    background-color: #3399ff;
+    padding: 5px;
+    width: 100%;
+    padding-left: 20px;
+  }
 
-.banner_photo {
-  width: 100%; /*stops the image overflowing the page*/
-}
+  /*style for the navigation links*/
+  .nav_button {
+    color: white;
+    text-decoration: none; /*removes the default hyperlink style*/ 
+    padding-right: 10px;
+  }
 
-/*Allows the two images on the visit page to sit together inline*/
-.image_box {
-  padding: 0px;
-  display: flex;
-}
+  .banner_photo {
+    width: 100%; /*stops the image overflowing the page*/
+  }
 
-/*manages the two images inside the image box, ensures they take up half the screen each*/
-.image_box img {
-  width: 50%;
-  height: auto;
-}
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-div {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+  .page_footer {
+    background-color: #4da6ff;
+    height: 30px; /*ensures the footer is visible*/
+    width: 100%; /*ensures the footer fits the whole screen*/
+    margin-top: 20px;
+  }
+
+/*Styling that only affects the home page*/
+
+  /*sets up the grid layout for the home page*/
+  .home_grid {
+    display: grid;
+  }
+
+  /*Style for photos related to history and visit links*/
+  .intro_photo {
+    height: 200px;
+    width: auto;
+  }
 
 
+/*Styling that only affects the history page*/
 
-.page_footer {
-  background-color: #4da6ff;
-  height: 30px; /*ensures the footer is visible*/
-  width: 100%; /*ensures the footer fits the whole screen*/
-  margin-top: 20px;
-}
+/*Styling that only affects the visit page*/
+
+  /*Allows the two images on the visit page to sit together inline*/
+  .image_box {
+    padding: 0px;
+    display: flex;
+  }
+
+  /*manages the two images inside the image box, ensures they take up half the screen each*/
+  .image_box img {
+    width: 50%;
+    height: auto;
+  }
