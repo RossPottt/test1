@@ -106,5 +106,10 @@
   /*sets up the grid layout for the visit page*/
   .visit_grid {
     display: grid;    
-    
+    grid-template-columns: 7fr 5fr;
+    column-gap: 20px;
+  }
+
+  .visit_city {
+    border-bottom: #00264d solid 5px;
   }
