@@ -13,6 +13,11 @@
     font-size: large;
   }
 
+  /*Unless overriden, images will scale down to fit mobile screens, but not increase in size*/
+  img {
+    max-width: 100%;
+  }
+
   /* style for the banner */
   .banner {
     background-color: #4da6ff;
@@ -65,12 +70,20 @@
   /*sets up the grid layout for the home page*/
   .home_grid {
     display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+  }
+
+  .map {
+    height: 300px;
+    width: auto;
   }
 
   /*Style for photos related to history and visit links*/
   .intro_photo {
     height: 200px;
     width: auto;
+    margin: 10px;
   }
 
 
@@ -88,4 +101,10 @@
   .image_box img {
     width: 50%;
     height: auto;
+  }
+
+  /*sets up the grid layout for the visit page*/
+  .visit_grid {
+    display: grid;    
+    
   }
